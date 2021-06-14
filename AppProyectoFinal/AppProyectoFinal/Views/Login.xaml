@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="AppProyectoFinal.Views.Login">
+    <FlexLayout class="principalContainer">
+        <Label class="Titulo" Text="Registro"/>
+        <Entry class="txtInput" x:Name="txtUsuario"/>
+        <Entry class="txtInput" IsPassword="True"/>
+        <Button class="btnStyle" Text="Entrar" Clicked="Button_Clicked"/>
+    </FlexLayout>
+</ContentPage>

@@ -1,0 +1,32 @@
+﻿
+.principalContainer {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    justify-content: center;
+    align-items: center;
+}
+
+.Titulo{
+    font-size: 20;
+    color: black;
+}
+
+.txtInput {
+    background-color: gray;
+    height: 40;
+    width: 350;
+    margin: 10;
+    padding: 5;
+    border-color: black;
+    border-radius: 10;
+    border: 5;
+    outline-color: black;
+    outline-width: 2;
+}
+
+.btnStyle{
+    background-color: forestgreen;
+    width: 350;
+    margin: 10;
+}
